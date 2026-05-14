@@ -12,6 +12,7 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td, th{
@@ -26,8 +27,22 @@
             background-color: lightgray;
         }
 
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: black;
+        }
+
+        tbody > tr:nth-child(even){ /*2n*/
+            background-color: lightgray;
+        }
+
+        tbody > tr:nth-child(odd){ /*2n-1*/
+            background-color: white;
+        }
+
         thead, tfoot{
-            background-color: gray;
+            background-color: black;
             color: white;
         }
 
@@ -44,8 +59,8 @@
         </caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>Populacao</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 40%;">Populacao</th>
             </tr>
         </thead>
         <tbody>
@@ -61,13 +76,83 @@
                 <td>Rio de Janeiro</td>
                 <td class="num">17264943</td>
             </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17264943</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17264943</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17264943</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17264943</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17264943</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17264943</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17264943</td>
+            </tr>
+
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17264943</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17264943</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17264943</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17264943</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17264943</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17264943</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17264943</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17264943</td>
+            </tr>
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td class="num"><strong>210147175</strong></td>
             </tr>
         </tfoot>
     </table>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, quos expedita consectetur odit cum eos dolorum tempore quam quidem voluptatibus culpa excepturi. Provident ut fugiat dolores incidunt sit ipsum enim. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, impedit dolor quaerat harum aperiam laborum officiis beatae, incidunt ea accusamus placeat vitae porro sequi quam nulla dicta explicabo nemo consectetur?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto excepturi enim quo, a alias voluptas laboriosam perspiciatis suscipit cupiditate aliquid consectetur possimus libero sed rerum maxime? Quasi id repellendus voluptatibus? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae, temporibus possimus. Recusandae quasi, corrupti magni corporis, earum illum neque laboriosam quo rerum delectus reiciendis enim ab dolores ut itaque natus? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil veniam corrupti dolorem quae debitis odit laboriosam unde repudiandae saepe, cupiditate iure, qui doloremque. Repellendus totam dicta, iure aperiam cum temporibus?
+    </p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, quos expedita consectetur odit cum eos dolorum tempore quam quidem voluptatibus culpa excepturi. Provident ut fugiat dolores incidunt sit ipsum enim. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, impedit dolor quaerat harum aperiam laborum officiis beatae, incidunt ea accusamus placeat vitae porro sequi quam nulla dicta explicabo nemo consectetur?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto excepturi enim quo, a alias voluptas laboriosam perspiciatis suscipit cupiditate aliquid consectetur possimus libero sed rerum maxime? Quasi id repellendus voluptatibus? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae, temporibus possimus. Recusandae quasi, corrupti magni corporis, earum illum neque laboriosam quo rerum delectus reiciendis enim ab dolores ut itaque natus? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil veniam corrupti dolorem quae debitis odit laboriosam unde repudiandae saepe, cupiditate iure, qui doloremque. Repellendus totam dicta, iure aperiam cum temporibus?
+    </p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, quos expedita consectetur odit cum eos dolorum tempore quam quidem voluptatibus culpa excepturi. Provident ut fugiat dolores incidunt sit ipsum enim. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, impedit dolor quaerat harum aperiam laborum officiis beatae, incidunt ea accusamus placeat vitae porro sequi quam nulla dicta explicabo nemo consectetur?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto excepturi enim quo, a alias voluptas laboriosam perspiciatis suscipit cupiditate aliquid consectetur possimus libero sed rerum maxime? Quasi id repellendus voluptatibus? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae, temporibus possimus. Recusandae quasi, corrupti magni corporis, earum illum neque laboriosam quo rerum delectus reiciendis enim ab dolores ut itaque natus? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil veniam corrupti dolorem quae debitis odit laboriosam unde repudiandae saepe, cupiditate iure, qui doloremque. Repellendus totam dicta, iure aperiam cum temporibus?
+    </p>
 </body>
 </html>
