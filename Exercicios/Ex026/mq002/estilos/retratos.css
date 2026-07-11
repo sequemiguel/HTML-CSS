@@ -1,3 +1,12 @@
 @charset "UTF-8";
 
 /*Aparelho em pe*/
+
+@media only screen and (max-width: 600px){
+    body{
+        background: url('../imagens/cev-portrait.jpg');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat
+    }
+}
