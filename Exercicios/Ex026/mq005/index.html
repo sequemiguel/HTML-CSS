@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="estilos/media-queries.css">
     <title>Media Query</title>
 </head>
-<body onresize="modouTamanho">
+<body onresize="modouTamanho()">
     <header>
         <h1>Meu Site</h1>
-        <i id="burguer" class="material-icons" onclick="clickmenu">menu</i>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
         <menu id="itens">
             <ul>
                 <li><a href="#">Opção 1</a></li>
@@ -41,7 +41,7 @@
             }
         }
 
-       function clickmenu() {
+       function clickMenu() {
             if (itens.style.display == 'block') {
                 itens.style.display = 'none'
 
